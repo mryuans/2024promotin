@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+/*banner:*/
+img.banner{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+/*导航栏*/
+.nav {
+    width:100%;
+    height: 70px;
+    line-height: 70px;
+    background: linear-gradient(to right, #2ca0de, #9433e8);
+    display: flex;
+    justify-content: space-around;
+    margin-top: -4px;
+}
+.nav a {
+    width: 16%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 23px;
+    color:white;
+    text-align: center;
+}
+
+.nav a.active{
+    background-color: crimson;
+    font-weight: bold;
+}
+
+.title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(107, 119, 201);
+    color:white;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.title::after {
+
+    margin-left: 30px;
+}
+
+.tiele::before{
+    
+    margin-right: 30px;
+}
+
+.footer{
+    width:100%;
+    height: 180px;
+    line-height: 90px;
+    text-align: center;
+    background-color: rgb(68, 164, 237);
+    font-size:30px;
+    color: white;
+}
+
+img:hover{
+    transition: all .3s;
+    box-shadow: 6px 4px 6px slategray;
+    cursor: pointer;
+    transform: rotateZ(3deg);
+    border: 20px solid rgb(46, 115, 211);
+}
+body{
+    background-color: rgb(158, 207, 247);
+}
